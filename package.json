@@ -1,0 +1,22 @@
+{
+  "name": "shorten",
+  "version": "0",
+  "description": "URL shortener",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "Ruoyu Zhong <zhongruoyu@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.20",
+    "dotenv": "16.4",
+    "express": "4.19",
+    "helmet": "7.1",
+    "nanoid": "5.0",
+    "sqlite": "5.1",
+    "sqlite3": "5.1",
+    "winston": "3.14"
+  },
+  "type": "module"
+}
